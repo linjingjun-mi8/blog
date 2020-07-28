@@ -4237,14 +4237,14 @@ webpackJsonp([1], {
                             staticClass: "desc-level"
                         }, [t._v(t._s(e.level))]), t._v(" "), i("span", {
                             staticClass: "desc-author"
-                        }, [t._v(t._s(e.author))])]), t._v(" "), i("div", [i("span", {
+                        }, [t._v(t._s(e.author))])]), t._v(" "), i("span", {
                             staticClass: "desc-date"
-                        }, [t._v(t._s(e.date))])]), t._v(" "), i("span", {
+                        }, [t._v(t._s(e.date))]), t._v(" "), i("div", [i("div", {
                             staticClass: "desc-content",
                             domProps: {
                                 innerHTML: t._s(e.desc)
                             }
-                        })]), t._v(" "), i("div", {
+                        })])]), t._v(" "), i("div", {
                             staticClass: "message-btn-wrap"
                         }, [i("div", {
                             staticClass: "message-btn btn1"

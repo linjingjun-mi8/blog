@@ -3011,7 +3011,7 @@ webpackJsonp([1], {
                             })
                         })
                     }), this.$bus.on("articleInited", function(t) {
-                        this.selectItem = 3
+                        this.selectItem = 1
                     })
                 }
             },

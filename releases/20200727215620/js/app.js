@@ -4239,12 +4239,12 @@ webpackJsonp([1], {
                             staticClass: "desc-author"
                         }, [t._v(t._s(e.author))])]), t._v(" "), i("div", [i("span", {
                             staticClass: "desc-date"
-                        }, [t._v(t._s(e.date))])]), t._v(" "), i("div", [i("div", {
+                        }, [t._v(t._s(e.date))])]), t._v(" "), i("span", {
                             staticClass: "desc-content",
                             domProps: {
                                 innerHTML: t._s(e.desc)
                             }
-                        })])]), t._v(" "), i("div", {
+                        })]), t._v(" "), i("div", {
                             staticClass: "message-btn-wrap"
                         }, [i("div", {
                             staticClass: "message-btn btn1"

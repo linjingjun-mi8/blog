@@ -3010,7 +3010,7 @@ webpackJsonp([1], {
                                 e.img = t
                             })
                         })
-                    }), this.$bus.on("articleInited", function(t) {
+                    }), this.$bus.on("articleInited", function() {
                         t.selectItem = 1
                     })
                 }

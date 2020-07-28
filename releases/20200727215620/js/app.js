@@ -3001,7 +3001,7 @@ webpackJsonp([1], {
                 created: function() {
                     var t = this;
                     this.$bus.on("articleInited", function() {
-                        t.selectItem = 1
+                        t.selectItem = 3
                     }), at.loadTopLists().then(function(e) {
                         Y(e.topViewPostsBlock), t.viewPosts = e.topViewPostsBlock
                     }), at.loadSideColumn().then(function(e) {
@@ -3011,7 +3011,7 @@ webpackJsonp([1], {
                             })
                         })
                     }), this.$bus.on("articleInited", function(t) {
-                        this.selectItem = 1
+                        this.selectItem = 3
                     })
                 }
             },

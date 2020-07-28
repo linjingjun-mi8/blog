@@ -2884,9 +2884,9 @@ webpackJsonp([1], {
                 created: function() {
                     var t = this;
                     this.$bus.on("articleDestroy", function(t) {
-                        M()("pub-body-view-posts").show(), M()("#toc_page").empty()
+                        M()("#blog_cloud_ad").show(), M()("#toc_page").empty()
                     }), this.$bus.on("articleInited", function(e) {
-                        if (M()("pub-body-view-posts").hide(), M()(e).attr("data-toc", "#toc_page"), 0 != M()("#app div[data-toc]").length) {
+                        if (M()("#blog_cloud_ad").hide(), M()(e).attr("data-toc", "#toc_page"), 0 != M()("#app div[data-toc]").length) {
                             M()("#toc_page").empty(), new ve({
                                 dom: "#app div[data-toc]",
                                 offsetBody: document.querySelector("#app .body-wrap")
@@ -3011,7 +3011,7 @@ webpackJsonp([1], {
                             })
                         })
                     }), this.$bus.on("articleInited", function(t) {
-                        this.selectItem = 3
+                        t.selectItem = 1
                     })
                 }
             },

@@ -2084,7 +2084,7 @@ webpackJsonp([1], {
                         tagId: "",
                         articleName: g.blogName,
                         categoryTitle: g.blogName + "博客",
-                        //categorySign: g.blogSign
+                        this.categorySign
 						
                     }
                 },

@@ -56,33 +56,29 @@ webpackJsonp([1], {
                 github: "cjunn",
                 blogUsedLinks: [],
                 mainExtNav: [{
+                    title: "主页",
+                    url: "https://yjlaugus.gitee.io",
+                    icon: "iconhome"
+                }, {
                     title: "首页",
                     url: "/subject/category/default.html",
-                    icon: "home"
+                    icon: "iconheart"
+                },{
+                    title: "仓库",
+                    url: "https://github.com/YJLAugus/",
+                    icon: "icongithub"
                 }, {
-                    title: "音乐收藏",
-                    url: "https://www.cjunn.xyz/musicplayer/index.html",
-                    icon: "ic_addmusic"
+                    title: "留言",
+                    url: "/c/subject/p/12286815.html",
+                    icon: "iconat"
                 }, {
-                    title: "在线壁纸",
-                    url: "https://www.cjunn.xyz/wallpaper/",
-                    icon: "paper"
+                    title: "说说",
+                    url: "/c/author",
+                    icon: "iconmessage-rounded-alt"
                 }, {
-                    title: "博客动态",
-                    url: "https://www.cnblogs.com/cjunn/",
-                    icon: "comment1"
-                }, {
-                    title: "博主简历",
-                    url: "https://www.cnblogs.com/cjunn/",
-                    icon: "face2"
-                }, {
-                    title: "主题反馈",
-                    url: "/c/subject/p/12494785.html",
-                    icon: "bug"
-                }, {
-                    title: "赞赏博主",
-                    url: "/c/subject/p/12495086.html",
-                    icon: "gift"
+                    title: "投喂",
+                    url: "/c/subject/p/7857317.html",
+                    icon: "iconziyuan"
                 }],
                 avatarSign: " ↗↗点击头像关注我。",
                 headBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/ing/autorbimg.jpg",
@@ -1921,10 +1917,7 @@ webpackJsonp([1], {
         var At = i("VU/8")(It, kt, !1, function(t) {
                 i("JGYj")
             }, null, null).exports,
-            Pt = a()([{
-                name: "C君博客",
-                url: "https://www.cnblogs.com/cjunn/"
-            }], g.blogFriendList),
+            Pt = a()([], g.blogFriendList),
             Bt = {
                 name: "PanelAside",
                 components: {
@@ -1952,21 +1945,21 @@ webpackJsonp([1], {
                     var t = this;
                     at.loadSideColumn().then(function(e) {
                         t.funcMenuNav.push({
-                            title: "随笔分类",
+                            title: "分类",
                             icon: "menu",
                             children: Y(e.catListPostCategory)
                         }, {
-                            title: "随笔档案",
+                            title: "档案",
                             icon: "paper",
                             children: Y(e.catListPostArchive)
                         }, {
-                            title: "随笔标签",
+                            title: "标签",
                             icon: "label",
                             children: Y(e.catListTag)
                         }, {
-                            title: "常用链接",
+                            title: "链接",
                             icon: "pen",
-                            children: e.catListLink
+                            children: g.blogUsedLinks
                         }, {
                             title: "友链",
                             icon: "links",
@@ -2081,6 +2074,13 @@ webpackJsonp([1], {
                     PageLine: $t
                 },
                 data: function() {
+					fetch('https://v1.hitokoto.cn')
+							.then(response => response.json())
+							.then(data => {
+							const hitokoto = document.getElementById('title-sign')
+							hitokoto.innerText = data.hitokoto
+							})
+							.catch(console.error)
                     return {
                         arrList: [],
                         title: "",
@@ -2090,8 +2090,9 @@ webpackJsonp([1], {
                         archiveId: "",
                         tagId: "",
                         articleName: g.blogName,
-                        categoryTitle: g.blogName + "博客",
-                        categorySign: g.blogSign
+                        categoryTitle: g.blogName,
+                        
+						
                     }
                 },
                 created: function() {
@@ -2113,6 +2114,9 @@ webpackJsonp([1], {
                         };
                         this.categoryId && "default" != this.categoryId ? at.loadCategoryList(this.categoryId, this.pageNum).then(i) : this.archiveId ? at.loadArchiveList(this.archiveId, this.pageNum).then(i) : this.tagId ? at.loadTagList(this.tagId, this.pageNum).then(i) : at.loadDefaultCategoryList(this.pageNum).then(i)
                     }
+					
+					
+					
                 },
                 name: "ArticlesBody",
                 watch: {
@@ -2139,7 +2143,9 @@ webpackJsonp([1], {
                     }, [t._v(t._s(t.title))]) : t._e(), t._v(" "), t.title ? t._e() : i("div", {
                         staticClass: "title-thumb"
                     }, [t._v(t._s(t.categoryTitle))]), t._v(" "), t.title ? t._e() : i("div", {
-                        staticClass: "title-sign "
+						attrs: {
+							id: "title-sign"
+						}
                     }, [t._v(t._s(t.categorySign))])]), t._v(" "), i("div", {
                         staticClass: "article-list-wrap"
                     }, t._l(t.arrList, function(e, n) {

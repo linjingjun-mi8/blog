@@ -1292,13 +1292,14 @@ webpackJsonp([1], {
                 created: function() {
                     var t = this;
                     this.audio.ontimeupdate = this.musicUpdate, this.audio.onerror = this.musicError, this.audio.oncanplay = this.musicCanplay, this.audio.onended = this.musicEnded, at.loadMusicList().then(function(e) {
-                        t.playList = e
+                        t.playList = e, t.musicState(), t.musicState()
                     }), q.registerUnClick("#music_player", function() {
                         t.showPlay = !1
                     })
                 },
                 data: function() {
                     return {
+                        delayTime: 0,
                         audio: new Audio,
                         isPlay: !1,
                         playing: {
@@ -1344,7 +1345,10 @@ webpackJsonp([1], {
                         this.cssStyle.barWidth = (this.audio.currentTime / this.audio.duration * this.cssStyle.barMaxWidth).toFixed(0)
                     },
                     musicError: function(t) {
-                        q.showInfoMsg("播放失败,自动切换下一首"), this.musicPlayPos()
+                        var e = this;
+                        q.showInfoMsg("播放失败,5秒后自动切换下一首"), this.delayTime = setTimeout(function() {
+                            e.musicPlayPos()
+                        }, 5e3)
                     },
                     musicCanplay: function(t) {},
                     musicState: function() {
@@ -2090,7 +2094,7 @@ webpackJsonp([1], {
                         archiveId: "",
                         tagId: "",
                         articleName: g.blogName,
-                        categoryTitle: g.blogName + "博客",
+                        categoryTitle: g.blogName,
                         
 						
                     }

@@ -318,11 +318,7 @@ webpackJsonp([1], {
                     }, [i("span", {
                         staticClass: "icon iconfont home head-brand-color"
                     }), t._v(" "), i("router-link", {
-                        staticClass: "blog-name head-brand-color",
-                        attrs: {
-                            to: "/",
-                            tag: "span"
-                        }
+                        
                     }, [t._v(" " + t._s(t.blogName))])], 1)]), t._v(" "), i("div", {
                         staticClass: "min-screen",
                         on: {

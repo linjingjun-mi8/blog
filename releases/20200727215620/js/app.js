@@ -1949,21 +1949,21 @@ webpackJsonp([1], {
                     var t = this;
                     at.loadSideColumn().then(function(e) {
                         t.funcMenuNav.push({
-                            title: "随笔分类",
+                            title: "分类",
                             icon: "menu",
                             children: Y(e.catListPostCategory)
                         }, {
-                            title: "随笔档案",
+                            title: "档案",
                             icon: "paper",
                             children: Y(e.catListPostArchive)
                         }, {
-                            title: "随笔标签",
+                            title: "标签",
                             icon: "label",
                             children: Y(e.catListTag)
                         }, {
-                            title: "常用链接",
+                            title: "链接",
                             icon: "pen",
-                            children: e.catListLink
+                            children: e.blogUsedLinks
                         }, {
                             title: "友链",
                             icon: "links",

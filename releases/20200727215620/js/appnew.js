@@ -1922,7 +1922,7 @@ webpackJsonp([1], {
                 i("JGYj")
             }, null, null).exports,
             Pt = a()([{
-                title: "C君博客",
+                name: "C君博客",
                 url: "https://www.cnblogs.com/cjunn/"
             }], g.blogFriendList),
             Bt = {

@@ -2084,7 +2084,15 @@ webpackJsonp([1], {
                         tagId: "",
                         articleName: g.blogName,
                         categoryTitle: g.blogName + "博客",
-                        this.categorySign
+                        categorySign: function() {
+                         fetch('https://v1.hitokoto.cn')
+							.then(response => response.json())
+							.then(data => {
+							const hitokoto = document.getElementById('title-sign')
+							hitokoto.innerText = data.hitokoto
+							})
+							.catch(console.error)
+						} 
 						
                     }
                 },
@@ -2106,16 +2114,8 @@ webpackJsonp([1], {
                             e.arrList = Y(t.list), e.title = t.title, e.pageList = t.pageList, e.$bus.emit("fullLoadingClose")
                         };
                         this.categoryId && "default" != this.categoryId ? at.loadCategoryList(this.categoryId, this.pageNum).then(i) : this.archiveId ? at.loadArchiveList(this.archiveId, this.pageNum).then(i) : this.tagId ? at.loadTagList(this.tagId, this.pageNum).then(i) : at.loadDefaultCategoryList(this.pageNum).then(i)
-                    },
-					categorySign: function() {
-                         fetch('https://v1.hitokoto.cn')
-							.then(response => response.json())
-							.then(data => {
-							const hitokoto = document.getElementById('title-sign')
-							hitokoto.innerText = data.hitokoto
-							})
-							.catch(console.error)
-						} 
+                    }
+					
 					
 					
                 },

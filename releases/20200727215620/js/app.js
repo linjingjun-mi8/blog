@@ -56,33 +56,29 @@ webpackJsonp([1], {
                 github: "cjunn",
                 blogUsedLinks: [],
                 mainExtNav: [{
+                    title: "主页",
+                    url: "https://yjlaugus.gitee.io",
+                    icon: "iconhome"
+                }, {
                     title: "首页",
                     url: "/subject/category/default.html",
-                    icon: "home"
+                    icon: "iconheart"
+                }{
+                    title: "仓库",
+                    url: "https://github.com/YJLAugus/",
+                    icon: "icongithub"
                 }, {
-                    title: "音乐收藏",
-                    url: "https://www.cjunn.xyz/musicplayer/index.html",
-                    icon: "ic_addmusic"
+                    title: "留言",
+                    url: "/c/subject/p/12286815.html",
+                    icon: "iconat"
                 }, {
-                    title: "在线壁纸",
-                    url: "https://www.cjunn.xyz/wallpaper/",
-                    icon: "paper"
+                    title: "说说",
+                    url: "/c/author",
+                    icon: "iconmessage-rounded-alt"
                 }, {
-                    title: "博客动态",
-                    url: "https://www.cnblogs.com/cjunn/",
-                    icon: "comment1"
-                }, {
-                    title: "博主简历",
-                    url: "https://www.cnblogs.com/cjunn/",
-                    icon: "face2"
-                }, {
-                    title: "主题反馈",
-                    url: "/c/subject/p/12494785.html",
-                    icon: "bug"
-                }, {
-                    title: "赞赏博主",
-                    url: "/c/subject/p/12495086.html",
-                    icon: "gift"
+                    title: "投喂",
+                    url: "/c/subject/p/7857317.html",
+                    icon: "iconziyuan"
                 }],
                 avatarSign: " ↗↗点击头像关注我。",
                 headBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/ing/autorbimg.jpg",

@@ -2074,6 +2074,13 @@ webpackJsonp([1], {
                     PageLine: $t
                 },
                 data: function() {
+					fetch('https://v1.hitokoto.cn')
+							.then(response => response.json())
+							.then(data => {
+							const hitokoto = document.getElementById('title-sign')
+							hitokoto.innerText = data.hitokoto
+							})
+							.catch(console.error)
                     return {
                         arrList: [],
                         title: "",
@@ -2084,15 +2091,7 @@ webpackJsonp([1], {
                         tagId: "",
                         articleName: g.blogName,
                         categoryTitle: g.blogName + "博客",
-                        categorySign: function() {
-                         fetch('https://v1.hitokoto.cn')
-							.then(response => response.json())
-							.then(data => {
-							const hitokoto = document.getElementById('title-sign')
-							hitokoto.innerText = data.hitokoto
-							})
-							.catch(console.error)
-						} 
+                        
 						
                     }
                 },

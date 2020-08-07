@@ -315,10 +315,12 @@ webpackJsonp([1], {
                         staticClass: "max-screen"
                     }, [i("div", {
                         staticClass: "max-screen-wrap"
-                    }, [i("span", {
-                        staticClass: "icon iconfont home head-brand-color"
-                    }), t._v(" "), i("router-link", {
-                        
+                    }, [i("router-link", {
+                        staticClass: "blog-name head-brand-color",
+                        attrs: {
+                            to: "/",
+                            tag: "span"
+                        }
                     }, [t._v(" " + t._s(t.blogName))])], 1)]), t._v(" "), i("div", {
                         staticClass: "min-screen",
                         on: {

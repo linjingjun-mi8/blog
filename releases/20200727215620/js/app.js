@@ -2084,7 +2084,8 @@ webpackJsonp([1], {
                         tagId: "",
                         articleName: g.blogName,
                         categoryTitle: g.blogName + "博客",
-                        categorySign: g.blogSign
+                        //categorySign: g.blogSign
+						categorySign: ""
                     }
                 },
                 created: function() {
@@ -2142,7 +2143,9 @@ webpackJsonp([1], {
                     }, [t._v(t._s(t.title))]) : t._e(), t._v(" "), t.title ? t._e() : i("div", {
                         staticClass: "title-thumb"
                     }, [t._v(t._s(t.categoryTitle))]), t._v(" "), t.title ? t._e() : i("div", {
-                        id: "title-sign"
+						attrs: {
+							id: "title-sign"
+						}
                     }, [t._v(t._s(t.categorySign))])]), t._v(" "), i("div", {
                         staticClass: "article-list-wrap"
                     }, t._l(t.arrList, function(e, n) {

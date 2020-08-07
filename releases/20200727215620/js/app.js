@@ -2105,7 +2105,17 @@ webpackJsonp([1], {
                             e.arrList = Y(t.list), e.title = t.title, e.pageList = t.pageList, e.$bus.emit("fullLoadingClose")
                         };
                         this.categoryId && "default" != this.categoryId ? at.loadCategoryList(this.categoryId, this.pageNum).then(i) : this.archiveId ? at.loadArchiveList(this.archiveId, this.pageNum).then(i) : this.tagId ? at.loadTagList(this.tagId, this.pageNum).then(i) : at.loadDefaultCategoryList(this.pageNum).then(i)
+                    },
+					categorySign: function() {
+                         fetch('https://v1.hitokoto.cn')
+							.then(response => response.json())
+							.then(data => {
+							const hitokoto = document.getElementById('title-sign')
+							hitokoto.innerText = data.hitokoto
+							})
+							.catch(console.error)
                     }
+					
                 },
                 name: "ArticlesBody",
                 watch: {
@@ -2132,7 +2142,7 @@ webpackJsonp([1], {
                     }, [t._v(t._s(t.title))]) : t._e(), t._v(" "), t.title ? t._e() : i("div", {
                         staticClass: "title-thumb"
                     }, [t._v(t._s(t.categoryTitle))]), t._v(" "), t.title ? t._e() : i("div", {
-                        staticClass: "title-sign "
+                        id: "title-sign"
                     }, [t._v(t._s(t.categorySign))])]), t._v(" "), i("div", {
                         staticClass: "article-list-wrap"
                     }, t._l(t.arrList, function(e, n) {

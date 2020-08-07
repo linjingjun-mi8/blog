@@ -1367,7 +1367,7 @@ webpackJsonp([1], {
                     },
                     musicPlay: function(t) {
                         try {
-                            this.audio.src = t.url, this.audio.play(), this.musicSetInfo(t), this.isPlay = !0
+                            this.audio.src = t.url, this.audio.play(), this.musicSetInfo(t), this.isPlay = !0, this.delayTime > 0 && (clearTimeout(this.delayTime), this.delayTime = 0)
                         } catch (t) {
                             this.musicError()
                         }

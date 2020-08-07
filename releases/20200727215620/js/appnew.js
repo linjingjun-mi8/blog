@@ -1921,7 +1921,10 @@ webpackJsonp([1], {
         var At = i("VU/8")(It, kt, !1, function(t) {
                 i("JGYj")
             }, null, null).exports,
-            Pt = a()([], g.blogFriendList),
+            Pt = a()([{
+                title: "C君博客",
+                url: "https://www.cnblogs.com/cjunn/"
+            }], g.blogFriendList),
             Bt = {
                 name: "PanelAside",
                 components: {

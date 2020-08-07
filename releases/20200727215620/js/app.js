@@ -63,7 +63,7 @@ webpackJsonp([1], {
                     title: "首页",
                     url: "/subject/category/default.html",
                     icon: "iconheart"
-                }{
+                },{
                     title: "仓库",
                     url: "https://github.com/YJLAugus/",
                     icon: "icongithub"

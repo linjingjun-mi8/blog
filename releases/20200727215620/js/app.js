@@ -1963,7 +1963,7 @@ webpackJsonp([1], {
                         }, {
                             title: "链接",
                             icon: "pen",
-                            children: e.blogUsedLinks
+                            children: g.blogUsedLinks
                         }, {
                             title: "友链",
                             icon: "links",

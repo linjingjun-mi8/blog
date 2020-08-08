@@ -1960,11 +1960,11 @@ webpackJsonp([1], {
                             children: Y(e.catListTag)
                         }, {
                             title: "链接",
-                            icon: "pen",
+                            icon: "links",
                             children: g.blogUsedLinks
                         }, {
                             title: "友链",
-                            icon: "links",
+                            icon: "iconheart",
                             children: Pt
                         })
                     })

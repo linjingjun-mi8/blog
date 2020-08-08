@@ -856,7 +856,7 @@ webpackJsonp([1], {
                 },
                 loadBlogTalk: function(t) {
                     return new T.a(function(e, i) {
-                        st.loadMyCommentList(10362781, t).then(function(i) {
+                        st.loadMyCommentList(11529055, t).then(function(i) {
                             e({
                                 cnList: i.list,
                                 count: i.size,

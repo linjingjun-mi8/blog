@@ -795,7 +795,7 @@ webpackJsonp([1], {
                     return e("div", {
                         staticClass: "search-btn head-keyword-back-color"
                     }, [e("span", {
-                        staticClass: "icon iconfont -search"
+                        staticClass: "icon iconfont iconsousuo"
                     })])
                 }]
             };
@@ -1438,7 +1438,7 @@ webpackJsonp([1], {
                             click: t.musicPlayPre
                         }
                     }, [i("span", {
-                        staticClass: "icon iconfont angle-double-left"
+                        staticClass: "icon iconfont iconskip-previous"
                     })]), t._v(" "), i("span", {
                         staticClass: "play",
                         on: {
@@ -1455,7 +1455,7 @@ webpackJsonp([1], {
                             click: t.musicPlayPos
                         }
                     }, [i("span", {
-                        staticClass: "icon iconfont angle-double-right"
+                        staticClass: "icon iconfont iconskip-next"
                     })])])]), t._v(" "), t._m(0), t._v(" "), i("div", {
                         staticClass: "music-progress",
                         style: {
@@ -1576,7 +1576,7 @@ webpackJsonp([1], {
                     return e("div", {
                         staticClass: "beer-inner-wrap"
                     }, [e("span", {
-                        staticClass: "icon iconfont bell"
+                        staticClass: "icon iconfont iconmessage-alt"
                     })])
                 }]
             };

@@ -3631,7 +3631,7 @@ webpackJsonp([1], {
                     }, [i("div", {
                         staticClass: "author-title"
                     }, [i("span", [t._v(t._s(t.articleInfo.title))]), t._v(" "), i("span", {
-                        staticClass: "fangdabtn icon iconfont fangda",
+                        staticClass: "fangdabtn icon iconfont icontushu",
                         on: {
                             click: function(e) {
                                 return t.$emit("openFullScreenEven")
@@ -3645,12 +3645,12 @@ webpackJsonp([1], {
                         staticClass: "icon iconfont ios-shijian"
                     }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.time))])]), t._v(" "), i("span", [i("span", {
                         staticClass: "icon iconfont see"
-                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.viewCount))]), t._v(" "), i("span", [t._v("次浏览")])]), t._v(" "), i("span", [i("span", {
+                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.viewCount))]), t._v(" "), i("span", [t._v("浏览")])]), t._v(" "), i("span", [i("span", {
                         staticClass: "icon iconfont talk"
-                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.commentCount))]), t._v(" "), i("span", [t._v("条评论")])]), t._v(" "), i("span", [i("span", {
-                        staticClass: "icon iconfont pen"
-                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.fontNum))]), t._v(" "), i("span", [t._v("字数")])]), t._v(" "), i("span", [i("span", {
-                        staticClass: "icon iconfont label"
+                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.commentCount))]), t._v(" "), i("span", [t._v("评论")])]), t._v(" "), i("span", [i("span", {
+                        staticClass: "icon iconfont iconpen"
+                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.fontNum))]), t._v(" "), i("span", [t._v("字")])]), t._v(" "), i("span", [i("span", {
+                        staticClass: "icon iconfont iconpurchase-tag"
                     }), t._v(" "), i("span", t._l(t.articleInfo.articleLabels, function(e) {
                         return i("span", {
                             staticClass: "label-item"
@@ -3685,13 +3685,13 @@ webpackJsonp([1], {
                     }, [i("div", {
                         staticClass: "post-body-head post-body-title"
                     }, [i("span", {
-                        staticClass: "icon iconfont home"
+                        staticClass: "icon iconfont iconhome"
                     }), t._v(" "), i("span", [t._v("首页")]), t._v(" "), i("span", {
                         staticClass: "sep"
                     }, [t._v("/")]), t._v(" "), i("span", [t._v("正文")]), t._v(" "), i("span", {
                         staticClass: "right-area"
                     }, [i("span", [t._v("分享到 :")]), t._v(" "), i("span", {
-                        staticClass: "icon iconfont weibo",
+                        staticClass: "icon iconfont iconweibo",
                         on: {
                             click: t.openWeiBo
                         }

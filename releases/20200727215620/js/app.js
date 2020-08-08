@@ -2901,7 +2901,7 @@ webpackJsonp([1], {
                             }).reset();
                             var i = M()("#toc_page");
                             i.css("max-width", "100%"), i.css("top", "0"), i.css("padding", "0"), i.css("margin", "0"), M()("#toc_page .toc-fixed").css("box-shadow", "0"), q.registerAnchorFunc(i);
-                            var n = M()("<span class='icon iconfont top topBtn topBtnDown'></span>");
+                            var n = M()("<span class='icon iconfont iconcommon-shangjiantou-'></span>");
                             n.click(function() {
                                 n.hasClass("topBtnDown") ? t.$bus.emit("panelToBottom", {}) : t.$bus.emit("panelToTop", {})
                             }), M()("#toc_page .toc-brand").append(n), M()(".toc-nav").css("max-height", M()(".body-wrap").height() - 140 + "px"), t.$bus.on("panelScrollEven", function(t) {

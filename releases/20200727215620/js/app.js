@@ -1948,7 +1948,7 @@ webpackJsonp([1], {
                     at.loadSideColumn().then(function(e) {
                         t.funcMenuNav.push({
                             title: "分类",
-                            icon: "menu",
+                            icon: "iconleimupinleifenleileibie",
                             children: Y(e.catListPostCategory)
                         }, {
                             title: "档案",
@@ -1956,7 +1956,7 @@ webpackJsonp([1], {
                             children: Y(e.catListPostArchive)
                         }, {
                             title: "标签",
-                            icon: "label",
+                            icon: "iconpurchase-tag",
                             children: Y(e.catListTag)
                         }, {
                             title: "链接",

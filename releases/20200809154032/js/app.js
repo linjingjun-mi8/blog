@@ -28,7 +28,7 @@ webpackJsonp([1], {
         var n = i("7+uW"),
             s = i("woOf"),
             a = i.n(s),
-            o = "https://cjunn.gitee.io/blog_theme_atum",
+            o = "https://yjlaugus.gitee.io/blog",
             r = {
                 openDev: !1,
                 blogAcc: "cjunn",

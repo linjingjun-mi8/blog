@@ -32,16 +32,16 @@ webpackJsonp([1], {
             o = "https://yjlaugus.gitee.io/blog",
             r = {
                 openDev: !1,
-                blogAcc: "cjunn",
-                blogId: "571504",
-                blogPostId: "12237892",
-                blogName: "C君",
-                blogUserGuid: "2476b4f3-9f13-4c75-389e-08d789d7fa8d",
-                blogIndexPath: "https://www.cnblogs.com/cjunn",
-                myGithub: "https://github.com/cjunn",
+                blogAcc: "yjlaugus",
+                blogId: "359186",
+                blogPostId: "13378398",
+                blogName: "YJLAugus",
+                blogUserGuid: "6374ccad-8aa9-4578-2d61-08d4a8d9e085",
+                blogIndexPath: "https://www.cnblogs.com/yjlaugus",
+                myGithub: "https://github.com/yjlaugus",
                 manPage: "https://i.cnblogs.com/",
-                sendPage: "https://msg.cnblogs.com/send/cjunn",
-                subPage: "https://www.cnblogs.com/cjunn/rss",
+                sendPage: "https://msg.cnblogs.com/send/yjlaugus",
+                subPage: "https://www.cnblogs.com/yjlaugus/rss",
                 pageItemImgs: 35,
                 pageBarImgs: 21,
                 commentLength: 10,
@@ -53,7 +53,7 @@ webpackJsonp([1], {
                 musicApiUrl: "https://api.i-meto.com/meting/api?server=netease&type=:type&id=:id&r=:r",
                 qq: "592571519",
                 email: "592571519@qq.com",
-                github: "cjunn",
+                github: "yjlaugus",
                 blogUsedLinks: [],
                 mainExtNav: [{
                     title: "主页",
@@ -4730,7 +4730,7 @@ webpackJsonp([1], {
                 }
                 0 != M()("#shade_animal_wrap").length && (M()("#shade_animal_wrap")[0].addEventListener("transitionend", t), M()("#shade_animal_wrap")[0].addEventListener("webkitTransitionEnd", t), M()("#shade_animal_wrap").css("opacity", "0"))
             };
-        (window.currentBlogApp = window.currentBlogApp || "cjunn", window.currentBlogId = window.currentBlogId || "571504", new T.a(function(t, e) {
+        (window.currentBlogApp = window.currentBlogApp || "yjlaugus", window.currentBlogId = window.currentBlogId || "359186", new T.a(function(t, e) {
             window.currentBlogApp && window.currentBlogId && g.autoInfoReset ? (g.blogAcc = window.currentBlogApp, g.blogId = window.currentBlogId, g.blogIndexPath = "https://www.cnblogs.com/" + g.blogAcc, g.myGithub = "https://github.com/" + g.blogAcc, g.sendPage = "https://msg.cnblogs.com/send/" + g.blogAcc, g.subPage = "https://www.cnblogs.com/" + g.blogAcc + "/rss", at.loadAuthorBlogInfo().then(function(e) {
                 g.blogName = e.username, g.blogUserGuid = e.guid, at.loadDefaultCategoryList(0).then(function(e) {
                     e.list.length > 0 && (g.blogPostId = e.list[0].pageId), t()

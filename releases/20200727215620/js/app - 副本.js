@@ -29,7 +29,7 @@ webpackJsonp([1], {
         var n = i("7+uW"),
             s = i("woOf"),
             a = i.n(s),
-            o = "https://cjunn.gitee.io/blog_theme_atum",
+            o = "https://yjlaugus.gitee.io/blog",
             r = {
                 openDev: !1,
                 blogAcc: "cjunn",
@@ -85,127 +85,23 @@ webpackJsonp([1], {
                 bigBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/body/background.jpg",
                 aboutmeHtml: " <img src='https://cjunn.gitee.io/blog_theme_atum/img/ing/aboutme.jpg'/>",
                 blogUrlPre: "https://www.cnblogs.com/",
-                faceIcon: [{
-                    name: "贴吧表情",
+					faceIcon: [{
+                    name: "头条",
                     path: o + "/img/face/tieba/",
-                    maxNum: 50,
-                    file: ".jpg",
+                    maxNum: 114,
+                    file: ".png",
                     placeholder: "#tieba_{alias}#",
-                    alias: {
-                        1: "hehe",
-                        2: "haha",
-                        3: "tushe",
-                        4: "a",
-                        5: "ku",
-                        6: "lu",
-                        7: "kaixin",
-                        8: "han",
-                        9: "lei",
-                        10: "heixian",
-                        11: "bishi",
-                        12: "bugaoxing",
-                        13: "zhenbang",
-                        14: "qian",
-                        15: "yiwen",
-                        16: "yinxian",
-                        17: "tu",
-                        18: "yi",
-                        19: "weiqu",
-                        20: "huaxin",
-                        21: "hu",
-                        22: "xiaonian",
-                        23: "neng",
-                        24: "taikaixin",
-                        25: "huaji",
-                        26: "mianqiang",
-                        27: "kuanghan",
-                        28: "guai",
-                        29: "shuijiao",
-                        30: "jinku",
-                        31: "shengqi",
-                        32: "jinya",
-                        33: "pen",
-                        34: "aixin",
-                        35: "xinsui",
-                        36: "meigui",
-                        37: "liwu",
-                        38: "caihong",
-                        39: "xxyl",
-                        40: "taiyang",
-                        41: "qianbi",
-                        42: "dnegpao",
-                        43: "chabei",
-                        44: "dangao",
-                        45: "yinyue",
-                        46: "haha2",
-                        47: "shenli",
-                        48: "damuzhi",
-                        49: "ruo",
-                        50: "OK"
-                    },
-                    title: {
-                        1: "呵呵",
-                        2: "哈哈",
-                        3: "吐舌",
-                        4: "啊",
-                        5: "酷",
-                        6: "怒",
-                        7: "开心",
-                        8: "汗",
-                        9: "泪",
-                        10: "黑线",
-                        11: "鄙视",
-                        12: "不高兴",
-                        13: "真棒",
-                        14: "钱",
-                        15: "疑问",
-                        16: "阴脸",
-                        17: "吐",
-                        18: "咦",
-                        19: "委屈",
-                        20: "花心",
-                        21: "呼~",
-                        22: "笑脸",
-                        23: "冷",
-                        24: "太开心",
-                        25: "滑稽",
-                        26: "勉强",
-                        27: "狂汗",
-                        28: "乖",
-                        29: "睡觉",
-                        30: "惊哭",
-                        31: "生气",
-                        32: "惊讶",
-                        33: "喷",
-                        34: "爱心",
-                        35: "心碎",
-                        36: "玫瑰",
-                        37: "礼物",
-                        38: "彩虹",
-                        39: "星星月亮",
-                        40: "太阳",
-                        41: "钱币",
-                        42: "灯泡",
-                        43: "茶杯",
-                        44: "蛋糕",
-                        45: "音乐",
-                        46: "haha",
-                        47: "胜利",
-                        48: "大拇指",
-                        49: "弱",
-                        50: "OK"
-                    }
-                }, {
-                    name: "QQ高清",
+			    },{
+                    name: "QQ",
                     path: o + "/img/face/qq/",
-                    maxNum: 91,
+                    maxNum: 149,
                     excludeNums: [41, 45, 54],
                     file: ".gif",
                     placeholder: "#qq_{alias}#"
                 }, {
-                    name: "emoji高清",
+                    name: "泡泡",
                     path: o + "/img/face/emoji/",
-                    maxNum: 84,
+                    maxNum: 79,
                     file: ".png",
                     placeholder: "#emoji_{alias}#"
                 }],
@@ -213,7 +109,7 @@ webpackJsonp([1], {
                 openMathJax: !1,
                 urlMathJax: "https://mathjax.cnblogs.com/2_7_5/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
                 defHeadImg: "/img/body/defAvatar.jpg",
-                themeStyle: "style0"
+                themeStyle: "style1"
             },
             c = "";
         c += "AByz0r4wxs";
@@ -315,9 +211,7 @@ webpackJsonp([1], {
                         staticClass: "max-screen"
                     }, [i("div", {
                         staticClass: "max-screen-wrap"
-                    }, [i("span", {
-                        staticClass: "icon iconfont home head-brand-color"
-                    }), t._v(" "), i("router-link", {
+                    }, [i("router-link", {
                         staticClass: "blog-name head-brand-color",
                         attrs: {
                             to: "/",
@@ -797,7 +691,7 @@ webpackJsonp([1], {
                     return e("div", {
                         staticClass: "search-btn head-keyword-back-color"
                     }, [e("span", {
-                        staticClass: "icon iconfont -search"
+                        staticClass: "icon iconfont iconsousuo"
                     })])
                 }]
             };
@@ -962,7 +856,7 @@ webpackJsonp([1], {
                 },
                 loadBlogTalk: function(t) {
                     return new T.a(function(e, i) {
-                        st.loadMyCommentList(10362781, t).then(function(i) {
+                        st.loadMyCommentList(11529055, t).then(function(i) {
                             e({
                                 cnList: i.list,
                                 count: i.size,
@@ -1292,13 +1186,14 @@ webpackJsonp([1], {
                 created: function() {
                     var t = this;
                     this.audio.ontimeupdate = this.musicUpdate, this.audio.onerror = this.musicError, this.audio.oncanplay = this.musicCanplay, this.audio.onended = this.musicEnded, at.loadMusicList().then(function(e) {
-                        t.playList = e
+                        t.playList = e, t.musicState(), t.musicState()
                     }), q.registerUnClick("#music_player", function() {
                         t.showPlay = !1
                     })
                 },
                 data: function() {
                     return {
+                        delayTime: 0,
                         audio: new Audio,
                         isPlay: !1,
                         playing: {
@@ -1344,7 +1239,10 @@ webpackJsonp([1], {
                         this.cssStyle.barWidth = (this.audio.currentTime / this.audio.duration * this.cssStyle.barMaxWidth).toFixed(0)
                     },
                     musicError: function(t) {
-                        q.showInfoMsg("播放失败,自动切换下一首"), this.musicPlayPos()
+                        var e = this;
+                        q.showInfoMsg("播放失败,5秒后自动切换下一首"), this.delayTime = setTimeout(function() {
+                            e.musicPlayPos()
+                        }, 5e3)
                     },
                     musicCanplay: function(t) {},
                     musicState: function() {
@@ -1363,7 +1261,7 @@ webpackJsonp([1], {
                     },
                     musicPlay: function(t) {
                         try {
-                            this.audio.src = t.url, this.audio.play(), this.musicSetInfo(t), this.isPlay = !0
+                            this.audio.src = t.url, this.audio.play(), this.musicSetInfo(t), this.isPlay = !0, this.delayTime > 0 && (clearTimeout(this.delayTime), this.delayTime = 0)
                         } catch (t) {
                             this.musicError()
                         }
@@ -1436,7 +1334,7 @@ webpackJsonp([1], {
                             click: t.musicPlayPre
                         }
                     }, [i("span", {
-                        staticClass: "icon iconfont angle-double-left"
+                        staticClass: "icon iconfont iconskip-previous"
                     })]), t._v(" "), i("span", {
                         staticClass: "play",
                         on: {
@@ -1453,7 +1351,7 @@ webpackJsonp([1], {
                             click: t.musicPlayPos
                         }
                     }, [i("span", {
-                        staticClass: "icon iconfont angle-double-right"
+                        staticClass: "icon iconfont iconskip-next"
                     })])])]), t._v(" "), t._m(0), t._v(" "), i("div", {
                         staticClass: "music-progress",
                         style: {
@@ -1574,7 +1472,7 @@ webpackJsonp([1], {
                     return e("div", {
                         staticClass: "beer-inner-wrap"
                     }, [e("span", {
-                        staticClass: "icon iconfont bell"
+                        staticClass: "icon iconfont iconmessage-alt"
                     })])
                 }]
             };
@@ -1946,7 +1844,7 @@ webpackJsonp([1], {
                     at.loadSideColumn().then(function(e) {
                         t.funcMenuNav.push({
                             title: "分类",
-                            icon: "menu",
+                            icon: "iconleimupinleifenleileibie",
                             children: Y(e.catListPostCategory)
                         }, {
                             title: "档案",
@@ -1954,15 +1852,15 @@ webpackJsonp([1], {
                             children: Y(e.catListPostArchive)
                         }, {
                             title: "标签",
-                            icon: "label",
+                            icon: "iconpurchase-tag",
                             children: Y(e.catListTag)
                         }, {
                             title: "链接",
-                            icon: "pen",
+                            icon: "links",
                             children: g.blogUsedLinks
                         }, {
                             title: "友链",
-                            icon: "links",
+                            icon: "iconheart",
                             children: Pt
                         })
                     })
@@ -3629,7 +3527,7 @@ webpackJsonp([1], {
                     }, [i("div", {
                         staticClass: "author-title"
                     }, [i("span", [t._v(t._s(t.articleInfo.title))]), t._v(" "), i("span", {
-                        staticClass: "fangdabtn icon iconfont fangda",
+                        staticClass: "fangdabtn icon iconfont icontushu",
                         on: {
                             click: function(e) {
                                 return t.$emit("openFullScreenEven")
@@ -3643,12 +3541,12 @@ webpackJsonp([1], {
                         staticClass: "icon iconfont ios-shijian"
                     }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.time))])]), t._v(" "), i("span", [i("span", {
                         staticClass: "icon iconfont see"
-                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.viewCount))]), t._v(" "), i("span", [t._v("次浏览")])]), t._v(" "), i("span", [i("span", {
+                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.viewCount))]), t._v(" "), i("span", [t._v("浏览")])]), t._v(" "), i("span", [i("span", {
                         staticClass: "icon iconfont talk"
-                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.commentCount))]), t._v(" "), i("span", [t._v("条评论")])]), t._v(" "), i("span", [i("span", {
-                        staticClass: "icon iconfont pen"
-                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.fontNum))]), t._v(" "), i("span", [t._v("字数")])]), t._v(" "), i("span", [i("span", {
-                        staticClass: "icon iconfont label"
+                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.commentCount))]), t._v(" "), i("span", [t._v("评论")])]), t._v(" "), i("span", [i("span", {
+                        staticClass: "icon iconfont iconpen"
+                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.fontNum))]), t._v(" "), i("span", [t._v("字")])]), t._v(" "), i("span", [i("span", {
+                        staticClass: "icon iconfont iconpurchase-tag"
                     }), t._v(" "), i("span", t._l(t.articleInfo.articleLabels, function(e) {
                         return i("span", {
                             staticClass: "label-item"
@@ -3683,13 +3581,13 @@ webpackJsonp([1], {
                     }, [i("div", {
                         staticClass: "post-body-head post-body-title"
                     }, [i("span", {
-                        staticClass: "icon iconfont home"
+                        staticClass: "icon iconfont iconhome"
                     }), t._v(" "), i("span", [t._v("首页")]), t._v(" "), i("span", {
                         staticClass: "sep"
                     }, [t._v("/")]), t._v(" "), i("span", [t._v("正文")]), t._v(" "), i("span", {
                         staticClass: "right-area"
                     }, [i("span", [t._v("分享到 :")]), t._v(" "), i("span", {
-                        staticClass: "icon iconfont weibo",
+                        staticClass: "icon iconfont iconweibo",
                         on: {
                             click: t.openWeiBo
                         }

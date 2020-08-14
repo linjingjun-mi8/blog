@@ -3015,7 +3015,7 @@ webpackJsonp([1], {
                         }, [i("div",{
                             staticClass: "comface"
                         },[i("img", {
-                            staticClass: "pub-face panel-right-img-style",
+                            //staticClass: "pub-face panel-right-img-style",
                             attrs: {
                                 src: e.img
                             }

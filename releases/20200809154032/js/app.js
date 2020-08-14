@@ -3012,7 +3012,9 @@ webpackJsonp([1], {
                                     return t.clickOpenArticle(e.url)
                                 }
                             }
-                        }, [i("div",[i("img", {
+                        }, [i("div",{
+                            staticClass: "comface"
+                        },[i("img", {
                             staticClass: "pub-face panel-right-img-style",
                             attrs: {
                                 src: e.img

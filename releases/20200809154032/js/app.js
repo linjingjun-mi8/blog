@@ -3012,12 +3012,12 @@ webpackJsonp([1], {
                                     return t.clickOpenArticle(e.url)
                                 }
                             }
-                        }, [i("div",[i("img") {
+                        }, [i("div",[i("img", {
                             staticClass: "pub-face panel-right-img-style",
                             attrs: {
                                 src: e.img
                             }
-                        }]), t._v(" "), i("div", {
+                        })]), t._v(" "), i("div", {
                             staticClass: "pub-item-wrap"
                         }, [i("div", {
                             staticClass: "item-title sing-ellipsis",

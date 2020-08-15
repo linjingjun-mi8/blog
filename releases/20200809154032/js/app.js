@@ -2862,11 +2862,8 @@ webpackJsonp([1], {
                 data: function() {
                     return {
                         list: [{
-                            img: "https://img.alicdn.com/tfs/TB1nkoQDlv0gK0jSZKbXXbK2FXa-440-240.jpg",
-                            url: "https://www.aliyun.com/activity/daily/cloud?userCode=njf7bpon"
-                        }, {
-                            img: "https://upload-dianshi-1255598498.file.myqcloud.com/345-60759ea0b2a21d3d1c764570c2a9f2960bfdf128.200.jpg",
-                            url: "https://url.cn/OLi4lNzq"
+                            img: "https://yjlaugus.gitee.io/blog/img/body/ad1.jpg",
+                            url: "https://yjlaugus.gitee.io/index"
                         }]
                     }
                 }

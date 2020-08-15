@@ -2342,7 +2342,7 @@ webpackJsonp([1], {
                 data: function() {
                     return {
                         info: {},
-						infoArtcle{}
+						infoArtcle: {}
                     }
                 }
             },

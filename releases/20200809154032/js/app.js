@@ -2334,6 +2334,9 @@ webpackJsonp([1], {
                     var t = this;
                     at.loadAuthorBlogInfo().then(function(e) {
                         t.info = e
+                    }),
+					at.loadArticleNum().then(function(e) {
+                        t.info = e
                     })
                 },
                 data: function() {
@@ -2411,7 +2414,7 @@ webpackJsonp([1], {
                     }, [e("span", {
                         staticClass: "icon iconfont comment"
                     }), this._v(" "), e("span", [this._v("园龄")])])
-                },function() {
+                }, function() {
                     var t = this.$createElement,
                         e = this._self._c || t;
                     return e("span", {

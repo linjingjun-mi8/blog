@@ -2336,12 +2336,13 @@ webpackJsonp([1], {
                         t.info = e
                     }),
 					at.loadArticleNum().then(function(e) {
-                        t.info = e
+                        t.infoArtcle = e
                     })
                 },
                 data: function() {
                     return {
-                        info: {}
+                        info: {},
+						infoArtcle{}
                     }
                 }
             },
@@ -2378,7 +2379,7 @@ webpackJsonp([1], {
                         staticClass: "info-item-right"
                     }, [i("span", {
                         staticClass: "info-item-bg"
-                    }, [i("span", [t._v(t._s(t.info.commentNum))])])])]), t._v(" "),i("div", {
+                    }, [i("span", [t._v(t._s(t.infoArtcle.commentNum))])])])]), t._v(" "),i("div", {
                         staticClass: "info-item"
                     }, [t._m(4), t._v(" "), i("span", {
                         staticClass: "info-item-right"

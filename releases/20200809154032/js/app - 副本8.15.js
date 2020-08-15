@@ -2375,15 +2375,9 @@ webpackJsonp([1], {
                         staticClass: "info-item-right"
                     }, [i("span", {
                         staticClass: "info-item-bg"
-                    }, [i("span", [t._v(t._s(t.info.commentNum))])])])]), t._v(" "),i("div", {
-                        staticClass: "info-item"
-                    }, [t._m(4), t._v(" "), i("span", {
-                        staticClass: "info-item-right"
-                    }, [i("span", {
-                        staticClass: "info-item-bg"
                     }, [i("span", [t._v(t._s(t.info.follow))])])])]), t._v(" "), i("div", {
                         staticClass: "info-item"
-                    }, [t._m(5), t._v(" "), i("span", {
+                    }, [t._m(4), t._v(" "), i("span", {
                         staticClass: "info-item-right"
                     }, [i("span", {
                         staticClass: "info-item-bg"
@@ -2411,14 +2405,6 @@ webpackJsonp([1], {
                     }, [e("span", {
                         staticClass: "icon iconfont comment"
                     }), this._v(" "), e("span", [this._v("园龄")])])
-                }function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("span", {
-                        staticClass: "info-item-left"
-                    }, [e("span", {
-                        staticClass: "icon iconfont comment"
-                    }), this._v(" "), e("span", [this._v("评论")])])
                 }, function() {
                     var t = this.$createElement,
                         e = this._self._c || t;

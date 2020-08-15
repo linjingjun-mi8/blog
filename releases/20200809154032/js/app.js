@@ -2411,7 +2411,7 @@ webpackJsonp([1], {
                     }, [e("span", {
                         staticClass: "icon iconfont comment"
                     }), this._v(" "), e("span", [this._v("园龄")])])
-                }function() {
+                },function() {
                     var t = this.$createElement,
                         e = this._self._c || t;
                     return e("span", {

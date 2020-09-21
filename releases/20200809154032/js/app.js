@@ -82,8 +82,8 @@ webpackJsonp([1], {
                 avatarSign: " ↗↗点击头像关注我。",
                 headBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/ing/autorbimg.jpg",
                 bigBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/body/background.jpg",
-                aboutmeHtml: " <img src='https://cjunn.gitee.io/blog_theme_atum/img/ing/aboutme.jpg'/>",
-				aboutCouple: "<img src='https://txcdn.lingn.top/blog/toutu/she.png' alt='love' style='width: 60px; border-radius: 50%;'><img src='https://txcdn.lingn.top/blog/toutu/z.gif' alt='love' style='width: 60px; border-radius: 50%;'><img src='https://txcdn.lingn.top/blog/toutu/me.png' alt='love' style='width: 60px; border-radius: 50%;'><p id='lovexhjSitetime' style='font-size: 0.8rem;    margin-top: 16px;  background: linear-gradient(to right, red, blue);-webkit-background-clip: text;color: transparent;'>我们相恋了0年125天2小时26分钟16秒啦</p>",
+                aboutmeHtml: "<img src='https://cjunn.gitee.io/blog_theme_atum/img/ing/aboutme.jpg'/>",
+				aboutCouple: "<div class='textwidget'><div id='lovenyh' style='width: 100%; height: 100px; text-align: center; font-size: 1rem;'> <div id='lovenyhImage' style='width: 220px; margin: 0 auto;'><img src='https://txcdn.lingn.top/blog/toutu/she.png' alt='love' style='width: 60px; border-radius: 50%;'><img src='https://txcdn.lingn.top/blog/toutu/z.gif' alt='love' style='width: 60px; border-radius: 50%;'><img src='https://txcdn.lingn.top/blog/toutu/me.png' alt='love' style='width: 60px; border-radius: 50%;'></div><p id='elapseClock' style='font-size: 0.8rem;    margin-top: 16px;  background: linear-gradient(to right, red, blue);-webkit-background-clip: text;color: transparent;'></p></div></div>",
                 blogUrlPre: "https://www.cnblogs.com/",
 					faceIcon: [{
                     name: "头条",
@@ -4686,7 +4686,7 @@ webpackJsonp([1], {
                         staticClass: "about-me-wrap"
                     }, [i("div", {
                         staticClass: "about-me-head"
-                    }, [t._v("777")]), t._v(" "), i("div", {
+                    }, [t._v("他与她的梦")]), t._v(" "), i("div", {
                         staticClass: "about-me-body",
                         domProps: {
                             innerHTML: t._s(t.aboutCouple)

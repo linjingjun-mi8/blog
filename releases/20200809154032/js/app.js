@@ -83,7 +83,7 @@ webpackJsonp([1], {
                 headBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/ing/autorbimg.jpg",
                 bigBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/body/background.jpg",
                 aboutmeHtml: "<img src='https://cjunn.gitee.io/blog_theme_atum/img/ing/aboutme.jpg'/>",
-				aboutCouple: "<div class='textwidget'><div id='lovenyh' style='width: 100%; height: 100px; text-align: center; font-size: 1rem;'> <div id='lovenyhImage' style='width: 220px; margin: 0 auto;'><img src='https://txcdn.lingn.top/blog/toutu/she.png' alt='love' style='width: 60px; border-radius: 50%;'><img src='https://txcdn.lingn.top/blog/toutu/z.gif' alt='love' style='width: 60px; border-radius: 50%;'><img src='https://txcdn.lingn.top/blog/toutu/me.png' alt='love' style='width: 60px; border-radius: 50%;'></div><p id='elapseClock' style='font-size: 0.8rem;    margin-top: 16px;  background: linear-gradient(to right, red, blue);-webkit-background-clip: text;color: transparent;'></p></div></div>",
+				aboutCouple: "<div class='textwidget'><div id='lovenyh' style='width: 100%; height: 100px; text-align: center; font-size: 1rem;'> <div id='lovenyhImage' style='width: 220px; margin: 0 auto;'><img src='https://txcdn.lingn.top/blog/toutu/she.png' alt='love' style='width: 60px; border-radius: 50%;'><img src='https://txcdn.lingn.top/blog/toutu/z.gif' alt='love' style='width: 60px; border-radius: 50%;'><img src='https://txcdn.lingn.top/blog/toutu/me.png' alt='love' style='width: 60px; border-radius: 50%;'></div></div></div>",
                 blogUrlPre: "https://www.cnblogs.com/",
 					faceIcon: [{
                     name: "头条",
@@ -4691,7 +4691,19 @@ webpackJsonp([1], {
                         domProps: {
                             innerHTML: t._s(t.aboutCouple)
                         }
-                    }, [t._v("\n        " + t._s(t.aboutCouple) + "\n      ")])]), 
+                    }, [t._v("\n        " + t._s(t.aboutCouple) + "\n      ")])
+					
+					, i("p", {
+                        attrs: {
+                            id: "elapseClock"
+                        }
+                    }, [t._v(" ")])
+					
+					
+					
+					
+					
+					]), 
 					
 					i("div", {
                         staticClass: "about-me-wrap"

@@ -2348,7 +2348,7 @@ webpackJsonp([1], {
                 }
             },
             Gt = {
-                render: function() {
+                  render: function() {
                     var t = this,
                         e = t.$createElement,
                         i = t._self._c || e;
@@ -2356,18 +2356,7 @@ webpackJsonp([1], {
                         attrs: {
                             id: "blog_info_page"
                         }
-                    },[i("div", {
-                        staticClass: "about-me-wrap"
                     }, [i("div", {
-                        staticClass: "about-me-head"
-                    }, [t._v("他与她的梦")]), t._v(" "), i("div", {
-                        staticClass: "about-me-body",
-                        domProps: {
-                            innerHTML: t._s(t.aboutCouple)
-                        }
-                    }, [t._v("\n        " + t._s(t.aboutCouple) + "\n      ")])]
-					
-					, [i("div", {
                         staticClass: "menu-body-item"
                     }, [t._m(0), t._v(" "), i("div", {
                         staticClass: "menu_blog_info_wrap_clz"
@@ -2403,7 +2392,7 @@ webpackJsonp([1], {
                         staticClass: "info-item-right"
                     }, [i("span", {
                         staticClass: "info-item-bg"
-                    }, [i("span", [t._v(t._s(t.info.focus))])])])])])])])])])
+                    }, [i("span", [t._v(t._s(t.info.focus))])])])])])])])])
                 },
                 staticRenderFns: [function() {
                     var t = this.$createElement,

@@ -4678,7 +4678,20 @@ webpackJsonp([1], {
                         staticClass: "contact-content-top"
                     }, [t._v("github")]), t._v(" "), i("div", {
                         staticClass: "contact-content-bottom"
-                    }, [t._v(t._s(t.github()))])])]), t._v(" "), i("div", {
+                    }, [t._v(t._s(t.github()))])])]), t._v(" "), 
+					
+					i("div", {
+                        staticClass: "about-me-wrap"
+                    }, [i("div", {
+                        staticClass: "about-me-head"
+                    }, [t._v("777")]), t._v(" "), i("div", {
+                        staticClass: "about-me-body",
+                        domProps: {
+                            innerHTML: t._s(t.aboutmeHtml)
+                        }
+                    }, [t._v("\n        " + t._s(t.aboutmeHtml) + "\n      ")])]), 
+					
+					i("div", {
                         staticClass: "about-me-wrap"
                     }, [i("div", {
                         staticClass: "about-me-head"

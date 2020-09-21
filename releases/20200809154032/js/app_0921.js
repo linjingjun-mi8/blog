@@ -2334,11 +2334,15 @@ webpackJsonp([1], {
                     var t = this;
                     at.loadAuthorBlogInfo().then(function(e) {
                         t.info = e
+                    }),
+					at.loadArticleNum().then(function(e) {
+                        t.infoArtcle = e
                     })
                 },
                 data: function() {
                     return {
-                        info: {}
+                        info: {},
+						infoArtcle: {}
                     }
                 }
             },
@@ -2363,21 +2367,27 @@ webpackJsonp([1], {
                         staticClass: "info-item-right"
                     }, [i("span", {
                         staticClass: "info-item-bg"
-                    }, [i("span", [t._v(t._s(t.info.username))])])])]), t._v(" "), i("div", {
+                    }, [i("span", [t._v(t._s(t.infoArtcle.pageNum))])])])]), t._v(" "), i("div", {
                         staticClass: "info-item"
                     }, [t._m(2), t._v(" "), i("span", {
                         staticClass: "info-item-right"
                     }, [i("span", {
                         staticClass: "info-item-bg"
-                    }, [i("span", [t._v(t._s(t.info.age))])])])]), t._v(" "), i("div", {
+                    }, [i("span", [t._v(t._s(t.infoArtcle.commentNum))])])])]), t._v(" "), i("div", {
                         staticClass: "info-item"
                     }, [t._m(3), t._v(" "), i("span", {
                         staticClass: "info-item-right"
                     }, [i("span", {
                         staticClass: "info-item-bg"
-                    }, [i("span", [t._v(t._s(t.info.follow))])])])]), t._v(" "), i("div", {
+                    }, [i("span", [t._v(t._s(t.info.age))])])])]), t._v(" "),i("div", {
                         staticClass: "info-item"
                     }, [t._m(4), t._v(" "), i("span", {
+                        staticClass: "info-item-right"
+                    }, [i("span", {
+                        staticClass: "info-item-bg"
+                    }, [i("span", [t._v(t._s(t.info.follow))])])])]), t._v(" "), i("div", {
+                        staticClass: "info-item"
+                    }, [t._m(5), t._v(" "), i("span", {
                         staticClass: "info-item-right"
                     }, [i("span", {
                         staticClass: "info-item-bg"
@@ -2396,15 +2406,23 @@ webpackJsonp([1], {
                         staticClass: "info-item-left"
                     }, [e("span", {
                         staticClass: "icon iconfont paper"
-                    }), this._v(" "), e("span", [this._v("昵称")])])
+                    }), this._v(" "), e("span", [this._v("文章数目")])])
                 }, function() {
                     var t = this.$createElement,
                         e = this._self._c || t;
                     return e("span", {
                         staticClass: "info-item-left"
                     }, [e("span", {
-                        staticClass: "icon iconfont comment"
-                    }), this._v(" "), e("span", [this._v("园龄")])])
+                        staticClass: "icon iconfont iconmessage-alt"
+                    }), this._v(" "), e("span", [this._v("评论数目")])])
+                }, function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("span", {
+                        staticClass: "info-item-left"
+                    }, [e("span", {
+                        staticClass: "icon iconfont ios-shijian"
+                    }), this._v(" "), e("span", [this._v("运行天数")])])
                 }, function() {
                     var t = this.$createElement,
                         e = this._self._c || t;
@@ -2412,7 +2430,7 @@ webpackJsonp([1], {
                         staticClass: "info-item-left"
                     }, [e("span", {
                         staticClass: "icon iconfont equalizer"
-                    }), this._v(" "), e("span", [this._v("粉丝")])])
+                    }), this._v(" "), e("span", [this._v("博客粉丝")])])
                 }, function() {
                     var t = this.$createElement,
                         e = this._self._c || t;
@@ -2420,7 +2438,7 @@ webpackJsonp([1], {
                         staticClass: "info-item-left"
                     }, [e("span", {
                         staticClass: "icon iconfont refresh"
-                    }), this._v(" "), e("span", [this._v("关注")])])
+                    }), this._v(" "), e("span", [this._v("关注博主")])])
                 }]
             };
         var zt = i("VU/8")(Dt, Gt, !1, function(t) {
@@ -2844,11 +2862,8 @@ webpackJsonp([1], {
                 data: function() {
                     return {
                         list: [{
-                            img: "https://img.alicdn.com/tfs/TB1nkoQDlv0gK0jSZKbXXbK2FXa-440-240.jpg",
-                            url: "https://www.aliyun.com/activity/daily/cloud?userCode=njf7bpon"
-                        }, {
-                            img: "https://upload-dianshi-1255598498.file.myqcloud.com/345-60759ea0b2a21d3d1c764570c2a9f2960bfdf128.200.jpg",
-                            url: "https://url.cn/OLi4lNzq"
+                            img: "https://yjlaugus.gitee.io/blog/img/body/ad1.jpg",
+                            url: "https://yjlaugus.gitee.io/index"
                         }]
                     }
                 }

@@ -83,17 +83,7 @@ webpackJsonp([1], {
                 headBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/ing/autorbimg.jpg",
                 bigBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/body/background.jpg",
                 aboutmeHtml: " <img src='https://cjunn.gitee.io/blog_theme_atum/img/ing/aboutme.jpg'/>",
-				aboutCouple: '<div class="textwidget">
-<div id="lovexhj" style="width: 100%; height: 100px; text-align: center; font-size: 1rem;">         
-<div id="lovexhjImage" style="width: 220px; margin: 0 auto;">
-<img src="https://txcdn.lingn.top/blog/toutu/she.png" alt="love" style="width: 60px; border-radius: 50%;">
-
-<img src="https://txcdn.lingn.top/blog/toutu/z.gif" alt="love" style="width: 60px; border-radius: 50%;">
-
-<img src="https://txcdn.lingn.top/blog/toutu/me.png" alt="love" style="width: 60px; border-radius: 50%;">
-</div>
-<p id="lovexhjSitetime" style="font-size: 0.8rem;    margin-top: 16px;  background: linear-gradient(to right, red, blue);-webkit-background-clip: text;color: transparent;">我们dasda啦</p>  </div>
-</div>',
+				aboutCouple: "<img src='https://txcdn.lingn.top/blog/toutu/she.png' alt='love' style='width: 60px; border-radius: 50%;'><img src='https://txcdn.lingn.top/blog/toutu/z.gif' alt='love' style='width: 60px; border-radius: 50%;'><img src='https://txcdn.lingn.top/blog/toutu/me.png' alt='love' style='width: 60px; border-radius: 50%;'><p id='lovexhjSitetime' style='font-size: 0.8rem;    margin-top: 16px;  background: linear-gradient(to right, red, blue);-webkit-background-clip: text;color: transparent;'>我们相恋了0年125天2小时26分钟16秒啦</p>",
                 blogUrlPre: "https://www.cnblogs.com/",
 					faceIcon: [{
                     name: "头条",

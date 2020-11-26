@@ -82,7 +82,8 @@ webpackJsonp([1], {
                 avatarSign: " ↗↗点击头像关注我。",
                 headBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/ing/autorbimg.jpg",
                 bigBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/body/background.jpg",
-                aboutmeHtml: " <img src='https://cjunn.gitee.io/blog_theme_atum/img/ing/aboutme.jpg'/>",
+                aboutmeHtml: "<img src='https://cjunn.gitee.io/blog_theme_atum/img/ing/aboutme.jpg'/>",
+				aboutCouple: "<div class='textwidget'><div id='lovenyh' style='width: 100%; height: 100px; text-align: center; font-size: 1rem;'> <div id='lovenyhImage' style='width: 220px; margin: 0 auto;'><img src='https://yjlaugus.gitee.io/blog/img/body/ll.jpg' alt='love' style='width: 60px; border-radius: 50%;'><img src='https://yjlaugus.gitee.io/blog/img/body/z.webp' alt='love' style='width: 60px; border-radius: 50%;'><img src='https://yjlaugus.gitee.io/blog/img/body/nn.jpg' alt='love' style='width: 60px; border-radius: 50%;'></div><p id='elapseClock' style='font-size: 0.8rem;    margin-top: 16px;  background: linear-gradient(to right, red, blue);-webkit-background-clip: text;color: transparent;'>我们相恋了(刷新页面看天数呀)</p></div></div>",
                 blogUrlPre: "https://www.cnblogs.com/",
 					faceIcon: [{
                     name: "头条",
@@ -2347,7 +2348,7 @@ webpackJsonp([1], {
                 }
             },
             Gt = {
-                render: function() {
+                  render: function() {
                     var t = this,
                         e = t.$createElement,
                         i = t._self._c || e;
@@ -4616,7 +4617,8 @@ webpackJsonp([1], {
                         emailImg: W("/img/ing/email.png"),
                         qqImg: W("/img/ing/qq.png"),
                         githubImg: W("/img/ing/github.png"),
-                        aboutmeHtml: g.aboutmeHtml
+                        aboutmeHtml: g.aboutmeHtml,
+						aboutCouple: g.aboutCouple
                     }
                 }
             },
@@ -4678,7 +4680,24 @@ webpackJsonp([1], {
                         staticClass: "contact-content-top"
                     }, [t._v("github")]), t._v(" "), i("div", {
                         staticClass: "contact-content-bottom"
-                    }, [t._v(t._s(t.github()))])])]), t._v(" "), i("div", {
+                    }, [t._v(t._s(t.github()))])])]), t._v(" "), 
+					
+					i("div", {
+                        staticClass: "about-me-wrap"
+                    }, [i("div", {
+                        staticClass: "about-me-head"
+                    }, [t._v("他与她的梦")]), t._v(" "), i("div", {
+                        staticClass: "about-me-body",
+                        domProps: {
+                            innerHTML: t._s(t.aboutCouple)
+                        }
+                    }, [t._v("\n        " + t._s(t.aboutCouple) + "\n      ")])
+					
+
+					
+					]), 
+					
+					i("div", {
                         staticClass: "about-me-wrap"
                     }, [i("div", {
                         staticClass: "about-me-head"

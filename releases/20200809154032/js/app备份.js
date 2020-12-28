@@ -3649,7 +3649,7 @@ webpackJsonp([1], {
                         var t = this;
                         this.$nextTick(function() {
                             t.articleObj.pageId && at.loadBlogPostInfo(t.articleObj.pageId).then(function(e) {
-                                t.isDigg = e.digg, t.isFucus = e.fucus, t.$bus.emit("articleInited", t.$refs.articleBody)
+                                t.isDigg = e.digg, t.isFucus = e.fucus, t.$bus.emit("articleInited", t.$refs.articleBody), g.openMathJax && (delete window.MathJax, M.a.getScript(g.urlMathJax))
                             })
                         })
                     },

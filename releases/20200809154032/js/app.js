@@ -3003,7 +3003,7 @@ webpackJsonp([1], {
                         }, [i("div", {
                             staticClass: "item-title double-ellipsis",
                             attrs: {
-                                title: e.title
+                                title: e.title.replace(/[0-9]+/g,"")
                             }
                         }, [t._v(t._s(e.title))]), t._v(" "), i("div", {
                             staticClass: "item-see"
@@ -3040,7 +3040,7 @@ webpackJsonp([1], {
                         }, [i("div", {
                             staticClass: "item-title sing-ellipsis",
                             attrs: {
-                                title: e.title
+                                title: e.title.replace(/[0-9]+/g,"")
                             }
                         }, [t._v(t._s(e.title))]), t._v(" "), i("div", {
                             staticClass: "item-body double-ellipsis",

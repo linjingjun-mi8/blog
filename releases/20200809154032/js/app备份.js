@@ -3005,7 +3005,7 @@ webpackJsonp([1], {
                             attrs: {
                                 title: e.title
                             }
-                        }, [t._v(t._s(e.title))]), t._v(" "), i("div", {
+                        }, [t._v(t._s(e.title).replace(/^[0-9]+\.+/g,""))]), t._v(" "), i("div", {
                             staticClass: "item-see"
                         }, [i("span", {
                             staticClass: "icon iconfont see"
@@ -3042,7 +3042,7 @@ webpackJsonp([1], {
                             attrs: {
                                 title: e.title
                             }
-                        }, [t._v(t._s(e.title))]), t._v(" "), i("div", {
+                        }, [t._v(t._s(e.title).replace(/^[0-9]+\. +[eR]+\:+/g,""))]), t._v(" "), i("div", {
                             staticClass: "item-body double-ellipsis",
                             attrs: {
                                 title: e.body

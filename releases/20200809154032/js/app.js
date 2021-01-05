@@ -104,6 +104,12 @@ webpackJsonp([1], {
                     maxNum: 79,
                     file: ".png",
                     placeholder: "#emoji_{alias}#"
+                }, {
+                    name: "咦~",
+                    path: o + "/img/face/bili/",
+                    maxNum: 19,
+                    file: ".png",
+                    placeholder: "#bili_{alias}#"
                 }],
                 autoInfoReset: !0,
                 openMathJax: !1,

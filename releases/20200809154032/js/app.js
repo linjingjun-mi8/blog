@@ -56,7 +56,7 @@ webpackJsonp([1], {
                 blogUsedLinks: [],
                 mainExtNav: [{
                     title: "主页",
-                    url: "https://yjlaugus.gitee.io/index",
+                    url: "https://yjlaugus.gitee.io",
                     icon: "iconhome"
                 }, {
                     title: "首页",

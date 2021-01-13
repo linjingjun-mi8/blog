@@ -56,7 +56,7 @@ webpackJsonp([1], {
                 blogUsedLinks: [],
                 mainExtNav: [{
                     title: "主页",
-                    url: "https://yjlaugus.gitee.io/index",
+                    url: "https://yjlaugus.gitee.io",
                     icon: "iconhome"
                 }, {
                     title: "首页",
@@ -104,6 +104,12 @@ webpackJsonp([1], {
                     maxNum: 79,
                     file: ".png",
                     placeholder: "#emoji_{alias}#"
+                }, {
+                    name: "咦~",
+                    path: o + "/img/face/bili/",
+                    maxNum: 26,
+                    file: ".webp",
+                    placeholder: "#bili_{alias}#"
                 }],
                 autoInfoReset: !0,
                 openMathJax: !1,

@@ -2870,7 +2870,7 @@ webpackJsonp([1], {
                     return {
                         list: [{
                             img: "https://yjlaugus.gitee.io/blog/img/body/ad1.jpg",
-                            url: "https://yjlaugus.gitee.io/index"
+                            url: "https://yjlaugus.gitee.io"
                         }]
                     }
                 }

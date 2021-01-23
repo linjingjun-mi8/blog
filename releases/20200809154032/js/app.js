@@ -847,8 +847,7 @@ webpackJsonp([1], {
                     })
                 },
                 loadArticleNum: function() {
-                    //return it("/" + g.blogAcc + "/tag/", function(t) {
-					return it("/" + g.blogAcc, function(t) {
+                    return it("/" + "yjlaugus" + "/tag/", function(t) {
                         return {
                             pageNum: parseInt((t.find("#stats_post_count").html() || "").replace("随笔", "").replace("-", "").trim()),
                             commentNum: parseInt((t.find("#stats-comment_count").html() || "").replace("评论", "").replace("-", "").trim())

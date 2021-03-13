@@ -774,6 +774,9 @@ webpackJsonp([1], {
                         type: "post",
                         url: t,
                         data: z()(e),
+						headers: {
+                        RequestVerificationToken: $("#antiforgery_token").val()
+                        },
                         contentType: "application/json; charset=utf-8",
                         dataType: "json",
                         complete: function(e, a) {

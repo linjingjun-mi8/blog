@@ -772,7 +772,7 @@ webpackJsonp([1], {
                 var s = new T.a(function(s, a) {
                     M.a.ajax({
                         type: "post",
-                        url: t
+                        url: t,
                         data: z()(e),
 						headers: {
                         RequestVerificationToken: M.a("#antiforgery_token").val()
@@ -1138,8 +1138,7 @@ webpackJsonp([1], {
                         var o = function(t, i) {
                                 var n = e(0, i),
                                     s = n.title.split("(");
-                                //return n.title = s[0], n.num = parseInt(s[1].replace(")", "")), n
-								return n.title = s[0], n.num = (s[1]?parseInt(s[1].replace(")", "")):undefined), n
+                                return n.title = s[0], n.num = parseInt(s[1].replace(")", "")), n
                             },
                             r = t.find(".catListPostCategory li a").map(o),
                             c = t.find(".catListPostArchive li a").map(o),

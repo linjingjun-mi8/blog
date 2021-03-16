@@ -772,7 +772,7 @@ webpackJsonp([1], {
                 var s = new T.a(function(s, a) {
                     M.a.ajax({
                         type: "post",
-                        url: t
+                        url: t,
                         data: z()(e),
 						headers: {
                         RequestVerificationToken: M.a("#antiforgery_token").val()

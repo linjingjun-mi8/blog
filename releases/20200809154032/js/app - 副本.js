@@ -1138,7 +1138,8 @@ webpackJsonp([1], {
                         var o = function(t, i) {
                                 var n = e(0, i),
                                     s = n.title.split("(");
-                                return n.title = s[0], n.num = parseInt(s[1].replace(")", "")), n
+                                //return n.title = s[0], n.num = parseInt(s[1].replace(")", "")), n
+								return n.title = s[0], n.num = (s[1]?parseInt(s[1].replace(")", "")):undefined), n
                             },
                             r = t.find(".catListPostCategory li a").map(o),
                             c = t.find(".catListPostArchive li a").map(o),
@@ -2873,7 +2874,7 @@ webpackJsonp([1], {
                     return {
                         list: [{
                             img: "https://yjlaugus.gitee.io/blog/img/body/ad1.jpg",
-                            url: "https://yjlaugus.gitee.io"
+                            url: "https://yjlaugus.rf.gd"
                         }]
                     }
                 }

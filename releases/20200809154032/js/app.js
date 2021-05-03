@@ -2614,7 +2614,7 @@ webpackJsonp([1], {
                 }
             },
             resetTocScroll: function() {
-                this.navbar.style.maxHeight = "inherit", this.navbar.style.overflowY = "inherit"
+                this.navbar.style.maxHeight = "inherit", this.navbar.style.overflowY = "scroll"
             },
             syncTocScroll: function() {
                 var t = this.navbar,

@@ -1711,9 +1711,10 @@ webpackJsonp([1], {
                         attrs: {
                             to: t.VUE_CTX + "/author",
                             tag: "img",
-                            src: t.avatarObj.avatar,
-                            //onerror: "this.src='" + t.avatarObj.face + "';this.onerror=null;"
-                            onerror: "this.src='" + "https://yjlaugus.gitee.io/blog/img/body/avatar.gif" + "';this.onerror=null;"
+                            //src: t.avatarObj.avatar,
+                            src: "https://yjlaugus.gitee.io/blog/img/body/avatar.gif",
+                            onerror: "this.src='" + t.avatarObj.face + "';this.onerror=null;"
+                            
                         }
                     }), t._v(" "), i("div", {
                         staticClass: "panel-avatar-sign"

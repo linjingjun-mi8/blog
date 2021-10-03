@@ -1708,7 +1708,7 @@ webpackJsonp([1], {
                             to: t.VUE_CTX + "/author",
                             tag: "img",
                             //src: t.avatarObj.avatar,
-                            src: "https://yjlaugus.gitee.io/blog/img/body/avatar.gif",
+                            src: "https://gitee.com/lin_jing_jun/blog/blob/master/img/body/user.png",
                             onerror: "this.src='" + t.avatarObj.face + "';this.onerror=null;"
                             
                         }

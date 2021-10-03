@@ -3400,7 +3400,8 @@
 	line-height: 16px;
 	-webkit-transform: translateY(calc(50% + 6px));
 	transform: translateY(calc(50% + 6px));
-	margin-left: 26px
+	margin-left: 26px;
+    text-align:center;
 }
 
 @media only screen and (min-width:550px) and (max-width:899px) {

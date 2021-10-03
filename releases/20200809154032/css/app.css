@@ -1987,6 +1987,7 @@
 }
 
 #avatar_area .avatar-area-wrap .sign-wrap>span{
+    display: block;
     font-size: 8px;
 }
 

@@ -1986,6 +1986,10 @@
 	font-size: 8px
 }
 
+#avatar_area .avatar-area-wrap .sign-wrap>span{
+    font-size: 8px;
+}
+
 #menu_items {
 	font-size: 0
 }

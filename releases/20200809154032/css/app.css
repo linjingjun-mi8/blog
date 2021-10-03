@@ -3395,12 +3395,12 @@
 	cursor: default;
 	display: inline-block;
 	color: #58666e;
-	font-size: 13px;
+	font-size: 12px;
 	float: left;
 	line-height: 16px;
 	-webkit-transform: translateY(calc(50% + 6px));
 	transform: translateY(calc(50% + 6px));
-	margin-left: 16px
+	margin-left: 26px
 }
 
 @media only screen and (min-width:550px) and (max-width:899px) {

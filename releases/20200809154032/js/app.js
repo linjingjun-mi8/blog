@@ -72,7 +72,7 @@ webpackJsonp([1], {
                     icon: "iconmessage-rounded-alt"
                 }, {
                     title: "投喂",
-                    url: "https://www.cnblogs.com/linjingjun/#/c/subject/p/15366389.html",
+                    url: "/c/subject/p/15366389.html",
                     icon: "iconziyuan"
                 }],
                 avatarSign: "保护姑娘，贯彻落实",

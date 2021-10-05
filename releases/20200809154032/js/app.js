@@ -55,6 +55,10 @@ webpackJsonp([1], {
                 github: "linjingjun-mi8",
                 blogUsedLinks: [],
                 mainExtNav: [{
+                    title: "主页",
+                    url: "https://linjingjun-mi8.github.io/blog",
+                    icon: "iconhome"
+                }, {
                     title: "首页",
                     url: "/subject/category/default.html",
                     icon: "iconheart"

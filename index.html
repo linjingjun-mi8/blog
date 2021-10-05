@@ -1,1 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Refresh">
+<title>自行车美学-首页</title>
+<style type="text/css">
+	html{
+		font-size: 32px;
+		width: 840px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	body{
+		background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+	}
+	h1{
+		font-family: "华文行楷";
+		letter-spacing: 3px;
+		color: #333;
+		margin: 0;
+		padding: 0;
+		position: relative;
+	}
+	h1::after{
+		content: '用脚踩出超越自我的速度！';
+		color: transparent;
+		background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+		top: 0;
+		left: 0;
+		position: absolute;
+		-webkit-clip-path:ellipse(100px 100px at 0% 50%);
+		clip-path:ellipse(100px 100px at 0% 50%);
+		animation: spotlight 5s infinite;
+		background-size: 150%;
+		background-position: center center;
+		-webkit-background-clip:text;
+		background-clip:text;
+	}
+	@keyframes spotlight{
+		0%{
+			-webkit-clip-path:ellipse(100px 100px at 50% 50%);
+		    clip-path:ellipse(100px 100px at 0% 50%);
+		}
+		50%{
+			-webkit-clip-path:ellipse(100px 100px at 100% 50%);
+		    clip-path:ellipse(100px 100px at 100% 50%);
+		}
+		100%{
+			-webkit-clip-path:ellipse(100px 100px at 50% 50%);
+		    clip-path:ellipse(100px 100px at 0% 50%);
+		}
+	}
+</style>
+</head>
 
+<body>
+	<h1>用脚踩出超越自我的速度！</h1>
+</body>
+</html>

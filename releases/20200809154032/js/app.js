@@ -68,7 +68,7 @@ webpackJsonp([1], {
                     icon: "icongithub"
                 }, {
                     title: "留言",
-                    url: "/c/subject/p/12286815.html",
+                    url: "/c/subject/p/15368490.html",
                     icon: "iconat"
                 }, {
                     title: "说说",

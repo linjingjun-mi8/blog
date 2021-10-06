@@ -56,7 +56,7 @@ webpackJsonp([1], {
                 blogUsedLinks: [],
                 mainExtNav: [{
                     title: "主页",
-                    url: "https://linjingjun-mi8.github.io/blog",
+                    url: "https://lin_jing_jun.gitee.io",
                     icon: "iconhome"
                 }, {
                     title: "首页",
